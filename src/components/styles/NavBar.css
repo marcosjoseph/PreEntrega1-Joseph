@@ -1,0 +1,35 @@
+nav {
+    background-color:#f5ebe0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-botones {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-botones button {
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    color:#76695d;
+}
+
+#menu-botones button:hover {
+    background-color: #76695d;
+    color: #f5ebe0;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+.logo:hover {
+    transform: scale(1.25)
+}
